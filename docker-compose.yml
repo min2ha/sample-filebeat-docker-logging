@@ -3,7 +3,7 @@ services:
   filebeat:
     hostname: filebeat
 # ** Here to build the image, you need to specify your own docker hub account :
-    image: bcoste/filebeat:latest
+    image: min2ha/filebeat:latest
     build:
       context: ./filebeat
 #Deploy is needed if you want to deploy in a Swarm
